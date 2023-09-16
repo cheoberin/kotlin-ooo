@@ -16,7 +16,7 @@ data class Gamer(var nome: String, var email: String) {
         private set
 
     init {
-        if (nome.isNullOrBlank()){
+        if (nome.isBlank()){
             throw IllegalArgumentException("Nome Inválido")
         }
         this.email = validarEmail()
