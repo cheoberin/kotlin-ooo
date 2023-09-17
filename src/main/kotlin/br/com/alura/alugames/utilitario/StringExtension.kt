@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter
 
 fun String.transformarEmIdade(): Int? {
 
-    if (this.isNullOrBlank()) {
+    if (this.isBlank()) {
         return null
     }
 

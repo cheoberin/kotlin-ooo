@@ -65,5 +65,7 @@ fun main() {
         it?.titulo?.contains("Batman", true) ?: false
     }
 
+    println(jogosFiltrados)
+
     println("Busca finalizada com sucesso.")
 }
